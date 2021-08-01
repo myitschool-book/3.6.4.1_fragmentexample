@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <fragment class="ru.samsung.itschool.mdev.fragmentexample.InputFragment"
+        android:id="@+id/fragment_list"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </fragment>
+
+    <fragment class="ru.samsung.itschool.mdev.fragmentexample.MessageFragment"
+        android:id="@+id/fragment_detail"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </fragment>
+
+</LinearLayout>
